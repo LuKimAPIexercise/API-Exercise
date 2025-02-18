@@ -1,0 +1,22 @@
+.card_container{
+    display: grid;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    p,h1, a{
+        padding-left: 10px;
+    }
+}
+
+.card_multi{
+    display: grid;
+    grid-template-row: subgrid;
+}
+
+.name h1{
+    margin-left: 10px;
+    font-weight: 200;
+    color: #b85656;
+    font-family: 14px;
+}

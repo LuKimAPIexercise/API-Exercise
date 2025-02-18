@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Index</title>
 </head>
 <header>
     <ul>
-        <li><a href=""></a>Index</li>
-        <li><a href=""></a>Browse</li>
-        <li><a href=""></a>Single</li>
+        <a href="index.html">
+            <li> Index</li>
+        </a>
+        <a href="browse.html">
+            <li>Browse</li>
+        </a>
+        <a href="single.html">
+            <li>Single</li>
+        </a>
     </ul>
 </header>
-<body>
-    
+<body> 
+        <section class="container" id="container">
+            <div class="gender_button_flex" id="gender_button_flex">
+                <a data-gender="male" href="browse.html?gender=male" class="big_button">Men</a>
+                <a data-gender="female" href="browse.html?gender=female" class="big_button">Women</a>
+                <a data-gender="All" href="browse.html" class="big_button">Both</a>
+              </div>
+
+
+        </section>
 </body>
 </html>
